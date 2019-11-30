@@ -6,7 +6,10 @@ using namespace std;
 #define INF std::numeric_limits<int>::max()
 #define max3(a,b,c) max(a,(max(b,c)))
 #define min3(a,b,c) min(a,(min(b,c)))
-std::vector<int> v;
+#define vi std::vector<int>
+#define vii std::vector<vector<int>>
+#define vp std::vector<pair<int,int>>
+vi v;
 struct tri{
      int x,y,z;
 };
